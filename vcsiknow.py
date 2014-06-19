@@ -125,7 +125,7 @@ for address in addrlist:
 			vcemlcnt[emailaddr] +=1
 		else:
 			vcs[emailaddr] = name.strip("'")
-			vcemlcnt[emailaddr] = 0
+			vcemlcnt[emailaddr] = 1
 		vclasteml[emailaddr] = emldate
 		
 with open(outfile,'w') as f:
